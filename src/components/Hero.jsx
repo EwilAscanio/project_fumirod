@@ -5,12 +5,20 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import foto1 from "../../public/Foto1.jpg";
-import foto2 from "../../public/Foto2.jpg";
-import foto3 from "../../public/Foto3.jpg";
-import foto4 from "../../public/Foto4.jpg";
 
 const Hero = () => {
+  const foto1 =
+    "https://img.freepik.com/foto-gratis/persona-traje-blanco-proteccion-quimica-realizando-desinfeccion-control-plagas-rociando-veneno-matar-insectos-roedores_342744-932.jpg?t=st=1736707878~exp=1736711478~hmac=4924397c59b9261ee1ef8dc7e1043381d09199dc415d17713b3c13fd1b322077&w=1380";
+
+  const foto2 =
+    "https://img.freepik.com/foto-gratis/persona-traje-blanco-proteccion-quimica-que-desinfecta-pasillos-publicos-pasos-detener-propagacion-virus-corona-altamente-contagioso_342744-861.jpg?t=st=1736707312~exp=1736710912~hmac=1dd4c990f6dbf80e0974d33c74b5ef9a6922750d8954499fa181909581ce53e6&w=1380";
+
+  const foto3 =
+    "https://img.freepik.com/foto-gratis/pandemia-coronavirus-desinfectante-traje-protector-mascarilla-rocia-desinfectantes-casa-u-oficina_155003-42349.jpg?t=st=1736707848~exp=1736711448~hmac=8ff950ce965d2c0d54e24d5c7aa7a288f78fcb3f3339aa5629a17da33442e711&w=1380";
+
+  const foto4 =
+    "https://img.freepik.com/foto-gratis/hombre-esta-utilizando-maquina-niebla-termica-proteger-propagacion-mosquitos_1150-6242.jpg?t=st=1736707801~exp=1736711401~hmac=2c63c2b1f97a97a0fdc5fd65e82eca98a29428c9da413e0ab26a9c13d9163e24&w=1380";
+
   const slides = [
     {
       image: foto1,
