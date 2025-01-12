@@ -11,8 +11,8 @@ const About = () => {
             transition={{ duration: 0.5 }}
           >
             <img
-              src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e"
-              alt="Our Team"
+              src="https://img.freepik.com/free-photo/office-skyscrapers-business-district_107420-95733.jpg?t=st=1736708227~exp=1736711827~hmac=2b55aa29ccbf8ac6745353a889a4b4a1e9b2b4121a724627ce04643a68d17756&w=1380"
+              alt="Nuestro Equipo"
               className="rounded-lg shadow-lg"
             />
           </motion.div>
